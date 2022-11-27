@@ -96,7 +96,7 @@
           <div class="row">
             <section class="col-6 col-12-narrower">
               <div class="box post">
-                <a href="#" class="image left"><img src="/images/pic01.jpg" alt=""/></a>
+                <a href="#" class="image left"><img src="./assets/images/main/pic01.jpg" alt=""/></a>
                 <div class="inner">
                   <h3>The First Thing</h3>
                   <p>Duis neque nisi, dapibus sed mattis et quis, nibh. Sed et dapibus nisl amet mattis, sed a rutrum
@@ -106,7 +106,7 @@
             </section>
             <section class="col-6 col-12-narrower">
               <div class="box post">
-                <a href="#" class="image left"><img src="/images/pic02.jpg" alt=""/></a>
+                <a href="#" class="image left"><img src="./assets/images/main/pic02.jpg" alt=""/></a>
                 <div class="inner">
                   <h3>The Second Thing</h3>
                   <p>Duis neque nisi, dapibus sed mattis et quis, nibh. Sed et dapibus nisl amet mattis, sed a rutrum
@@ -118,7 +118,7 @@
           <div class="row">
             <section class="col-6 col-12-narrower">
               <div class="box post">
-                <a href="#" class="image left"><img src="/images/pic03.jpg" alt=""/></a>
+                <a href="#" class="image left"><img src="./assets/images/main/pic03.jpg" alt=""/></a>
                 <div class="inner">
                   <h3>The Third Thing</h3>
                   <p>Duis neque nisi, dapibus sed mattis et quis, nibh. Sed et dapibus nisl amet mattis, sed a rutrum
@@ -128,7 +128,7 @@
             </section>
             <section class="col-6 col-12-narrower">
               <div class="box post">
-                <a href="#" class="image left"><img src="/images/pic04.jpg" alt=""/></a>
+                <a href="#" class="image left"><img src="./assets/images/main/pic04.jpg" alt=""/></a>
                 <div class="inner">
                   <h3>The Fourth Thing</h3>
                   <p>Duis neque nisi, dapibus sed mattis et quis, nibh. Sed et dapibus nisl amet mattis, sed a rutrum
@@ -226,6 +226,7 @@
 </template>
 
 <script>
+import './assets/js/breakpoints.min/'
 export default {
   components: {},
   data () {
@@ -245,5 +246,5 @@ export default {
 }
 </script>
 <style scoped>
-
+@import "@/assets/css/main.css";
 </style>
